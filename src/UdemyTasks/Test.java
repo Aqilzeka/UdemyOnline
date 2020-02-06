@@ -11,5 +11,9 @@ public class Test {
         calculater.setSecondNumber(0);
         System.out.println("multiply= " + calculater.getMultiplicationResult());
         System.out.println("divide= " + calculater.getDivisionResult());
+
+        Person person = new Person();
+        person.setAge(-5);
+        System.out.println("age : " + person.getAge());
     }
 }

@@ -8,6 +8,19 @@ public class BankAccount {
     private String  customerPhoneNumber;
     public int getAccounNumber;
 
+    public BankAccount(){
+        System.out.println("Empty");
+    }
+
+    public BankAccount(String accounNumber, double accountBalance, String customerName, String customerPhoneNumber, String customerEmail){
+        System.out.println("Account costractor with parameters called");
+        this.accounNumber = accounNumber;
+        this.accountBalance = accountBalance;
+        this.customerName = customerName;
+        this.customerPhoneNumber = customerPhoneNumber;
+        this.customerEmail = customerEmail;
+    }
+
 
     public void deposit(double depositAmount){
         this.accountBalance +=depositAmount;

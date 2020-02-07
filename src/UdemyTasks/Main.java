@@ -2,13 +2,14 @@ package UdemyTasks;
 
 public class Main {
     public static void main(String[] args) {
-        BankAccount aqilAccount = new BankAccount();
+        BankAccount aqilAccount = new BankAccount("08974748543", 0.0 , "Aqil Zeka",
+                "(+994) 70 814 43 14", "aqilzeka99@gmail.com");
 
-        aqilAccount.setAccounNumber("08974748543");
-        aqilAccount.setAccountBalance(0.0);
-        aqilAccount.setCustomerEmail("aqilzeka99@gmail.com");
-        aqilAccount.setCustomerName("Aqil Zeka");
-        aqilAccount.setCustomerPhoneNumber("(+994) 70 814 43 14");
+//        aqilAccount.setAccounNumber("08974748543");
+//        aqilAccount.setAccountBalance(0.0);
+//        aqilAccount.setCustomerEmail("aqilzeka99@gmail.com");
+//        aqilAccount.setCustomerName("Aqil Zeka");
+//        aqilAccount.setCustomerPhoneNumber("(+994) 70 814 43 14");
 
         System.out.println("____________________________________________________________");
         System.out.println("Customer's account number: " + aqilAccount.getAccounNumber());
